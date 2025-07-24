@@ -218,7 +218,7 @@ button{
     gap: 20px;
     flex: 1;
 
-    
+
 }
 
 .double1,
@@ -277,6 +277,41 @@ button{
 
     
 }
+
+.last-container{
+    width: 100%;
+    height: 533px;
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-container h1{
+    
+    color: white;
+}
+input{
+    width: 644px;
+    height: 45px;
+
+    
+}
+.btt{
+    width: 186px;
+    height: 50px;
+    position: relative;
+    left: -10px;
+    
+    
+}
+
+
+
 
 @media screen and (max-width: 576px) {
   .nav-bar {
@@ -431,5 +466,31 @@ button{
 
     width: 100%;
     height: 400px;
+   }
+   
+   .last-container {
+    height: 400px;
+
+   }
+
+   .last-container h1{
+
+    font-size: 25px;
+
+   }
+   input{
+
+    width: 70%;
+    height: 40px;
+
+   }
+
+   .btt{
+    width: 30%;
+    height: 45px;
+   }
+
+   .inbut{
+    display: flex;
    }
 }
