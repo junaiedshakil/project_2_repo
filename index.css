@@ -400,10 +400,12 @@ input{
 
   .dark{
     margin-left: 0;
+    display: flex;
   }
 
   li i{
-    font-size: 14px;
+    
+    margin-top: 1px;
   }
 
   .banner-section{
@@ -589,11 +591,9 @@ input{
    
    width: 100%;
    height: auto;
-
-
-
-  }
-
+   
+   }
+  
 
 
 }
